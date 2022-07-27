@@ -1,10 +1,10 @@
-body{
+body {
     font-family: sans-serif;
     background: black;
     color: white;
 }
 
-.hero{
+.hero {
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -14,14 +14,15 @@ body{
     width: 100%;
 }
 
-h1, a{
+h1,
+a {
     transition: all 0.2s ease-in-out;
     letter-spacing: -1x;
     font-weight: bold;
     font-size: 24px;
 }
 
-.pronoy{
+.pronoy {
     padding: 12px 90px;
 }
 
@@ -34,11 +35,12 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     opacity: 1;
 }
 
-nav, footer{
+nav,
+footer {
     justify-content: space-between;
     position: fixed;
     display: flex;
@@ -47,30 +49,26 @@ nav, footer{
     left: 0;
 }
 
-nav{
+nav {
     top: 0;
 }
 
-footer{
+footer {
     bottom: 0;
 }
 
-nav a{
+nav a {
     font-size: 24px;
     padding: 0;
 }
 
-footer p{
+footer p {
     font-weight: bold;
     font-size: 24px;
     opacity: 0.4;
 }
 
-footer h1{
-    visibility: hidden;
-}
-
-footer a{
+footer a {
     font-size: 24px;
     padding: 12px 115px;
 }
