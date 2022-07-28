@@ -1,0 +1,17 @@
+:root{
+	--white: white;
+}
+
+body{
+	background-color: white;
+}
+
+body, p, input, select, textarea, button{
+	font-family: sans-serif;
+	letter-spacing: -0.2px;
+	font-size: 16px;
+}
+
+div, p{
+	color: var(--white);
+}

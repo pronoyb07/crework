@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: white;
+    color: black;
+}
+
+.h1 {
+    letter-spacing: -1px;
+    font-size: 40px;
+    padding: 12px;
+    opacity: 0.4;
+    color: red;
+    text-decoration: none;
+}
