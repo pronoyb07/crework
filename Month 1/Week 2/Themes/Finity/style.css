@@ -8,26 +8,20 @@
   padding: 0;
 }
 
-#background-image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 .heading {
-  color: white;
   font-family: GeneralSans, sans-serif;
   padding: 60px;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./Images/bg.png);
   justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
   display: flex;
   background-color: #762dea;
+  color: white;
 }
 
 
