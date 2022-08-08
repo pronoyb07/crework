@@ -1,0 +1,12 @@
+:root {
+    --white: #ffffff;
+    --dot: #ffac2f;
+    --program: #f88912;
+    --bgr: #111;
+    --footer: #5151513d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
