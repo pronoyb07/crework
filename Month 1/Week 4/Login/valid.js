@@ -8,7 +8,7 @@ email.addEventListener('textInput', email_Verify);
 password.addEventListener('textInput', pass_Verify);
 
 function validated() {
-	if (email.value.length < 9) {
+	if (email.value.length < 10) {
 		email.style.border = "1px solid red";
 		email_error.style.display = "block";
 		email.focus();
