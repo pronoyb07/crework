@@ -8,6 +8,6 @@ const getColor = () => {
 }
 document.getElementById("butn").addEventListener(
     "click"
-    getColor
+    
 )
 getColor();
