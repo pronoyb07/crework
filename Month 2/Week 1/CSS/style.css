@@ -1,8 +1,18 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-ExtraBold.otf);
+  font-family: Gilroyl;
+  src: url(../fonts/Gilroy-Light.otf);
+
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: Gilroyl, sans-serif;
 }
 
 
