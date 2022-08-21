@@ -1,10 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation*/
+
+.navigation{
+    position: relative;
+    padding: 1rem;
+    background-color: transparent;
+}
 
 body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background: linear-gradient(#ff9966, #ff5e62);
+    background: linear-gradient(#084bb6, #66c0f0);
     text-align: center;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -29,7 +42,9 @@ h1 {
     border-radius: 4rem;
 }
 
-.btn {
+/*Button*/
+
+.button {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,15 +52,17 @@ h1 {
     margin-top: -40px;
 }
 
-.bttn {
+.btn {
     padding: 1rem 3rem;
-    background-color: rgb(188, 42, 42);
-    border-radius: 2rem;
+    background-color: #2b84ea;
+    border-radius: 0.25rem;
     font-size: x-large;
+    cursor: pointer;
+    border-color: transparent;
 }
 
-.bttn:hover {
-    background-color: black;
+.btn:hover {
+    background-color: #0b72e7;
 }
 
 h2 {
