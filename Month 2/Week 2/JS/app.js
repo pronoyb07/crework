@@ -1,13 +1,17 @@
-const getColor = () => {
-    const randomNumber = Math.floor(Math.random() * 16777215);
-    const randomCode = "#" + randomNumber.toString(16);
-    const pallet1 = document.getElementById("pallet1");
-    document.body.style.backgroundColor = randomCode;
-    document.getElementById("pallet1").innerHTML = randomCode;
+let addToDoButton = document.getElementById('addToDo');
+let toDoContainer = document.getElementById('toDoContainer');
+let inputField = document.getElementById('inputField');
 
-}
-document.getElementById("butn").addEventListener(
-    "click"
-    
-)
-getColor();
+addToDoButton.addEventListener('click', function(){
+    var paragraph = document.createElement('p');
+    paragraph.classList.add('paragraph-styling');
+    paragraph.innerText = inputField.value;
+    toDoContainer.appendChild(paragraph);
+    inputField.value = "";
+    paragraph.addEventListener('click', function(){
+        paragraph.style.textDecoration = "line-through";
+    })
+    paragraph.addEventListener('dblclick', function(){
+        toDoContainer.removeChild(paragraph);
+    })
+})
