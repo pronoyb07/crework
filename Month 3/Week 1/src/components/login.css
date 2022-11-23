@@ -1,0 +1,90 @@
+.login-heading {
+    font-family: sans-serif;
+    color: white;
+    font-size: 3rem;
+    
+    letter-spacing: 1.5px;
+    margin: 0;
+    position: absolute;
+    top: 18.3%;
+    left: 46%;
+}
+
+.login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    width: 80%;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: antiquewhite;
+    letter-spacing: 1.5px;
+    padding-left: 1.5%;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 5px;
+}
+
+.mt-custom {
+    margin-top: 3%;
+}
+
+.input {
+    width: 80%;
+    height: 2rem;
+    border-radius: 15px;
+    padding-left: 13px;
+    padding-right: 10px;
+    font-family: 'BankGothicRegular';
+    font-size: 1.2rem;
+}
+
+.error {
+    margin-top: 2px;
+    width: 80%;
+    height: 2rem;
+    font-size: 1rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: start;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'BankGothicRegular';
+}
+
+.btn {
+    margin-top: 5%;
+    width: 50%;
+    height: 2rem;
+    border-radius: 15px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'BankGothicRegular';
+    cursor: pointer;
+}
+
+#alert {
+    display: none;
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    width: 25rem;
+    height: 3rem;
+    background-color: green;
+    font-family: 'BankGothicRegular';
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    color: wheat;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    border: 3px solid wheat;
+}
